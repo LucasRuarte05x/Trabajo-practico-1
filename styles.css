@@ -1,13 +1,12 @@
-/*fondo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 /*encabezado*/
 h1, h2 {
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 /* Navegación */
@@ -23,7 +22,7 @@ nav ul a {
 
 nav a {
     text-decoration: none;
-    color: #0066cc;
+    color: #7ba4cf;
 }
 
 nav a:hover {
@@ -42,6 +41,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color: #afeaeb;
 }
 
 table, th, td {
@@ -59,23 +59,23 @@ th {
 
 /* Estilos de los enlaces en el pie de página */
 footer a {
-    color: #ff6600;
+    color: #2faee8;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #6d8094;
+    color: #ae5400;
 }
 
-/* Selector "elemento, elemento" */
+/* Selector "elemento, elemento" Cambie el color al encabezado y otros mas */
 h1{
-    color: black
+    color: rgb(255, 255, 255)
 }
 h2 {
-    color: grey;
+    color: rgb(167, 206, 254);
     font-size: 1.8em;
 }
 p{
-    color: black;
+    color: rgb(253, 246, 246);
     font-size: 1em;
 }
