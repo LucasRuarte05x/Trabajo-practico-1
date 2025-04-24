@@ -66,3 +66,16 @@ footer a {
 footer a:hover {
     color: #6d8094;
 }
+
+/* Selector "elemento, elemento" */
+h1{
+    color: black
+}
+h2 {
+    color: grey;
+    font-size: 1.8em;
+}
+p{
+    color: black;
+    font-size: 1em;
+}
