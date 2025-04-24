@@ -1,10 +1,38 @@
+/*fondo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
 }
+/*encabezado*/
+h1, h2 {
+    color: blue;
+}
 
-h1, h2, p {
-    color: black;
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul a {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* Imagen de perfil */
+.perfil-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
